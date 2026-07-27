@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.hdata.com/
+url: https://trust.hdata.com/
+platform: Vanta Trust Center
+certifications:
+- SOC 2
+compliance:
+- framework: SOC 2 Type I
+  status: attested
+  auditor: Sensiba San Filippo, LLP
+  announced: '2022-10-11'
+  criteria: [security, availability, confidentiality]
+  source: https://blog.hdata.com/press-releases/hdata-announces-soc-2-compliance
+evidence:
+- source: https://trust.hdata.com/
+  keywords: [trust center, security, compliance]
+  note: Vanta-hosted trust center (also resolves at https://trust.hdata.us/); JS-rendered, so automated keyword probe returns none.
+- source: https://blog.hdata.com/press-releases/hdata-announces-soc-2-compliance
+  keywords: [soc 2]

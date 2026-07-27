@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.hdata.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  https://trust.hdata.us/.well-known/security.txt returns HTTP 200 but with
+  content-type text/html — it is the Vanta trust-center SPA catch-all shell, not
+  a valid RFC 9116 security.txt, so it is not recorded as a SecurityTxt artifact.
+  No well-known discovery documents are published on the primary host.

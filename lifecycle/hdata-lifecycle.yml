@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hdata.com/
+status_page: https://status.hdata.us/
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  HData publishes a live status page (Instatus-style) at https://status.hdata.us/.
+  No public API, versioning policy, or deprecation policy is documented — the
+  platform is delivered as a SaaS application without a published developer API,
+  so only the status-page signal is captured here.

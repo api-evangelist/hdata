@@ -1,7 +1,27 @@
 aid: hdata
 name: HData
-description: HData is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  HData is the AI-native operating system for energy regulation. Founded in 2018
+  by Hudson Hollister, the platform turns disconnected federal and state regulatory
+  filings, dockets, and proceedings from sources such as FERC, EIA, and state utility
+  commissions into standardized, citable, machine-readable data. It combines centralized
+  regulatory data, domain-specific AI trained on more than 20 million citable documents,
+  and purpose-built tools — including HData Analytics, Regulatory Intelligence, Gateway
+  for FERC data extraction, and Data Request Management — to help utilities, regulators,
+  advocates, advisory firms, financial institutions, and large energy customers
+  accelerate rate cases, resource planning, compliance reporting, and policy research.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hdata.com/hubfs/HData%20Regulatory%20AI%20%26%20Energy%20Data%20Platform.png
 url: https://raw.githubusercontent.com/api-evangelist/hdata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Regulatory
+- Utilities
+- Regulatory Intelligence
+- Analytics
+- Artificial Intelligence
+- Compliance
+- FERC
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hdata-domain-security.yml
+- type: WellKnown
+  url: well-known/hdata-well-known.yml
+- type: Lifecycle
+  url: lifecycle/hdata-lifecycle.yml
+- type: LLMsTxt
+  url: llms/hdata-llms.txt
 - type: Website
-  url: https://hdata.us/
+  url: https://www.hdata.com/
+- type: About
+  url: https://www.hdata.com/about
+- type: Blog
+  url: https://blog.hdata.com/
+- type: Support
+  url: https://www.hdata.com/support
+- type: SignUp
+  url: https://www.hdata.com/demo-request
+- type: TermsOfService
+  url: https://www.hdata.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.hdata.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.hdata.com/
+- type: Compliance
+  url: https://trust.hdata.com/
+- type: StatusPage
+  url: https://status.hdata.us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hdata
+- type: Careers
+  url: https://www.hdata.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
